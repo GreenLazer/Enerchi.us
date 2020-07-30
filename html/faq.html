@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Varkala E-commerce Theme</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Custom font-->
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <!-- Swiper-->
+    <link rel="stylesheet" href="vendor/swiper/css/swiper.min.css">
+    <!-- AOS - AnimationOnScroll-->
+    <link rel="stylesheet" href="vendor/aos/aos.css">
+    <!-- Custom Scrollbar-->
+    <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css">
+    <!-- Theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <!-- Top Bar-->
+      <div class="top-bar text-sm">
+        <div class="container-fluid px-lg-5 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-4 d-none d-md-block">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item mr-2"><a class="text-reset text-hover-primary" href="#"><i class="fab fa-facebook-f"> </i></a></li>
+                <li class="list-inline-item mr-4"><a class="text-reset text-hover-primary" href="#"><i class="fab fa-twitter"> </i></a></li>
+                <li class="list-inline-item mr-2">
+                  <svg class="svg-icon mr-2">
+                    <use xlink:href="#calls-1"> </use>
+                  </svg>020-800-456-747
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-4 text-left text-md-center">
+              <p class="mb-0">Free in-store delivery</p>
+            </div>
+            <div class="col-sm-6 col-md-4 d-none d-sm-flex justify-content-end">
+              <!-- Language Dropdown-->
+              <div class="dropdown border-right px-3"><a class="dropdown-toggle topbar-link" id="langsDropdown" href="#" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">English</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="langsDropdown"><a class="dropdown-item" href="#">German</a><a class="dropdown-item" href="#">French</a></div>
+              </div>
+              <!-- Currency Dropdown-->
+              <div class="dropdown pl-3 ml-0"><a class="dropdown-toggle topbar-link" id="currencyDropdown" href="#" data-toggle="dropdown" data-display="static" aria-haspopup="true" aria-expanded="false">USD</a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="currencyDropdown"><a class="dropdown-item" href="#">EUR</a><a class="dropdown-item" href="#"> GBP</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Top Bar End-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white px-lg-5"><a class="navbar-brand" href="index.html">Varkala</a>
+        <ul class="list-inline mb-0 d-block d-lg-none">
+          <li class="list-inline-item mr-3"><a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#loginModal">
+              <svg class="svg-icon navbar-icon">
+                <use xlink:href="#avatar-1"> </use>
+              </svg></a></li>
+          <li class="list-inline-item mr-3"><a class="text-dark text-hover-primary position-relative" href="wishlist.html">
+              <svg class="svg-icon navbar-icon">
+                <use xlink:href="#heart-1"> </use>
+              </svg>
+              <div class="navbar-icon-badge">3</div></a></li>
+          <li class="list-inline-item position-relative mr-3"><a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#sidebarCart">
+              <svg class="svg-icon navbar-icon">
+                <use xlink:href="#retail-bag-1"> </use>
+              </svg>
+              <div class="navbar-icon-badge">5</div></a></li>
+        </ul>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <svg class="svg-icon navbar-icon">
+            <use xlink:href="#menu-hamburger-1"> </use>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mt-3 mt-lg-0">
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="homeDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+              <div class="dropdown-menu" aria-labelledby="homeDropdown"><a class="dropdown-item" href="index.html">Home 1 - Fashion </a><a class="dropdown-item" href="index-2.html">Home 2 - Fashion </a><a class="dropdown-item" href="index-3.html">Home 3 - Design <span class="badge badge-primary-light ml-1">New</span> </a><a class="dropdown-item" href="index-4.html">Home 4 - Design <span class="badge badge-primary-light ml-1">New</span> </a>
+              </div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="shopDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+              <div class="dropdown-menu py-0" aria-labelledby="shopDropdown" data-min-width="750px" data-translate-x="-50px">
+                <div class="row">
+                  <div class="col-lg-4 col-sm-6 p-lg-5">
+                    <h6 class="dropdown-header h6 pl-lg-0">Shop pages</h6><a class="dropdown-item pl-lg-0" href="category-full.html">Full width </a><a class="dropdown-item pl-lg-0" href="category-full-sidebar.html">Full width with category menu </a><a class="dropdown-item pl-lg-0" href="category-big-products.html">Full width with big products </a><a class="dropdown-item pl-lg-0" href="category-boxed.html">Fixed width </a><a class="dropdown-item pl-lg-0" href="category-sidebar.html">Fixed width & sidebar </a><a class="dropdown-item pl-lg-0" href="category-masonry.html">Fixed width & masonry layout<span class="badge badge-primary-light ml-1">New</span> </a><a class="dropdown-item pl-lg-0" href="category-categories.html">Subcategories </a>
+                  </div>
+                  <div class="col-lg-4 col-sm-6 p-lg-5">
+                    <h6 class="dropdown-header h6 pl-lg-0">Product pages</h6><a class="dropdown-item pl-lg-0" href="detail-1.html">Product with sticky info </a><a class="dropdown-item pl-lg-0" href="detail-2.html">Product with background </a><a class="dropdown-item pl-lg-0" href="detail-3.html">Product standard  </a>
+                  </div>
+                  <div class="col-lg-4 d-none d-lg-block"><img class="bg-image" src="img/product/kyle-loftus-596319-unsplash-cropped.jpg" alt=""></div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="iconsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Icons</a>
+              <div class="dropdown-menu py-lg-0" aria-labelledby="iconsDropdown" data-min-width="750px">
+                <div class="row py-lg-5 px-4">
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#trousers-1"> </use>
+                      </svg>
+                      <h6>Trousers</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#suit-1"> </use>
+                      </svg>
+                      <h6>Jackets</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#shirt5-1"> </use>
+                      </svg>
+                      <h6>T-Shirts</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#shirt1-1"> </use>
+                      </svg>
+                      <h6>Shirts</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#pullover-1"> </use>
+                      </svg>
+                      <h6>Pullovers</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-5"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#scarf-1"> </use>
+                      </svg>
+                      <h6>Scarfs</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-0"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#shorts1-1"> </use>
+                      </svg>
+                      <h6>Shorts</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-0"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#underwear1-1"> </use>
+                      </svg>
+                      <h6>Underwear</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-0"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#watch-1"> </use>
+                      </svg>
+                      <h6>Watches</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-0"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#portfolio-1"> </use>
+                      </svg>
+                      <h6>Bags</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-0"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#cap-1"> </use>
+                      </svg>
+                      <h6>Caps</h6></a></div>
+                  <div class="col-6 col-sm-3 col-md-2 text-center mb-2 mb-lg-0"><a class="text-reset" href="category-categories.html">
+                      <svg class="svg-icon w-3rem h-3rem mb-2 svg-icon-light">
+                        <use xlink:href="#bowtie-1"> </use>
+                      </svg>
+                      <h6>Accessories</h6></a></div>
+                </div>
+                <div class="p-3 bg-primary text-center text-sm d-none d-lg-block">
+                  <p class="mb-0">Don't miss our biggest sales this year. Use the code "SUMMER35" at checkout until Jun. 15! </p>
+                </div>
+              </div>
+            </li>
+            <!-- Megamenu-->
+            <li class="nav-item dropdown position-static"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Pages</a>
+              <div class="dropdown-menu megamenu px-4 px-lg-5 py-lg-5" data-translate-x="-50%">
+                <div class="row">
+                  <div class="col-lg-3 col-sm-6"><img class="img-fluid mb-3 d-none d-lg-block" src="img/blog/christopher-campbell-28571-unsplash.jpg" alt=""/>
+                    <!-- Megamenu list-->
+                    <h6>Homepage</h6>
+                    <ul class="megamenu-list list-unstyled">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="index.html">Home 1 - Fashion   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="index-2.html">Home 2 - Fashion   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="index-3.html">Home 3 - Design <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="index-4.html">Home 4 - Design <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                    </ul>
+                    <!-- Megamenu list-->
+                    <h6>Category</h6>
+                    <ul class="megamenu-list list-unstyled mb-lg-0">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-full.html">Full width   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-full-sidebar.html">Full width with category menu   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-big-products.html">Full width with big products   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-boxed.html">Fixed width   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-sidebar.html">Fixed width & sidebar   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-masonry.html">Fixed width & masonry layout<span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="category-categories.html">Subcategories   </a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-6"><img class="img-fluid mb-3 d-none d-lg-block" src="img/blog/ian-dooley-347962-unsplash.jpg" alt=""/>
+                    <!-- Megamenu list-->
+                    <h6>Order process</h6>
+                    <ul class="megamenu-list list-unstyled">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="cart.html">Shopping cart   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="checkout1.html">Checkout - Five steps <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="checkout.html">Checkout - Single-page   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="checkout-confirmed.html">Checkout - confirmed   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="wishlist.html">Wishlist   </a></li>
+                    </ul>
+                    <!-- Megamenu list-->
+                    <h6>Product</h6>
+                    <ul class="megamenu-list list-unstyled mb-lg-0">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="detail-1.html">Product with sticky info   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="detail-2.html">Product with background   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="detail-3.html">Product standard    </a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-6"><img class="img-fluid mb-3 d-none d-lg-block" src="img/blog/ian-dooley-347942-unsplash.jpg" alt=""/>
+                    <!-- Megamenu list-->
+                    <h6>Blog</h6>
+                    <ul class="megamenu-list list-unstyled">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="blog.html">Blog   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="blog-masonry.html">Blog - Masonry   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="post.html">Post   </a></li>
+                    </ul>
+                    <!-- Megamenu list-->
+                    <h6>Pages</h6>
+                    <ul class="megamenu-list list-unstyled">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="about.html">About - Company <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="about-2.html">About v.2 - Person <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="faq.html">F.A.Q. <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="contact.html">Contact   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="privacy.html">Privacy policy <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-sm-6"><img class="img-fluid mb-3 d-none d-lg-block" src="img/blog/photo-1534126511673-b6899657816a.jpg" alt=""/>
+                    <!-- Megamenu list-->
+                    <h6>Customer</h6>
+                    <ul class="megamenu-list list-unstyled mb-lg-0">
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-login.html">Login/sign up<span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-orders.html">Orders <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-order.html">Order detail <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-order-tracking.html">Order tracking <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-addresses.html">Addresses <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-account.html">Profile <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                      <li class="megamenu-list-item"><a class="megamenu-list-link" href="customer-wishlist.html">Wishlist <span class="badge badge-primary-light ml-1">New</span>   </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <!-- /Megamenu end-->
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="docsDropdown" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Docs</a>
+              <div class="dropdown-menu" aria-labelledby="homeDropdown"><a class="dropdown-item" href="docs/index.html">Introduction </a><a class="dropdown-item" href="docs/directory-structure.html">Directory structure </a><a class="dropdown-item" href="docs/gulp.html">Gulp </a><a class="dropdown-item" href="docs/customizing-css.html">Customizing CSS </a><a class="dropdown-item" href="docs/credits.html">Credits </a><a class="dropdown-item" href="docs/changelog.html">Changelog </a>
+                <div class="dropdown-divider"></div><a class="dropdown-item" href="docs/components-bootstrap.html">Bootstrap </a><a class="dropdown-item" href="docs/components-theme.html">Theme </a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-lg-flex ml-auto mr-lg-5 mr-xl-6 my-4 my-lg-0" action="#">
+            <div class="input-group input-group-underlined">
+              <input class="form-control form-control-underlined pl-3" type="text" placeholder="Search" aria-label="Search" aria-describedby="button-search">
+              <div class="input-group-append ml-0">
+                <button class="btn btn-underlined py-0" id="button-search" type="button">
+                  <svg class="svg-icon navbar-icon">
+                    <use xlink:href="#search-1"> </use>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </form>
+          <ul class="list-inline mb-0 d-none d-lg-block">
+            <li class="list-inline-item mr-3"><a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#loginModal">
+                <svg class="svg-icon navbar-icon">
+                  <use xlink:href="#avatar-1"> </use>
+                </svg></a></li>
+            <li class="list-inline-item mr-3"><a class="text-dark text-hover-primary position-relative" href="wishlist.html">
+                <svg class="svg-icon navbar-icon">
+                  <use xlink:href="#heart-1"> </use>
+                </svg>
+                <div class="navbar-icon-badge">3</div></a></li>
+            <li class="list-inline-item position-relative mr-3"><a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#sidebarCart">
+                <svg class="svg-icon navbar-icon">
+                  <use xlink:href="#retail-bag-1"> </use>
+                </svg>
+                <div class="navbar-icon-badge">5</div></a></li>
+            <li class="list-inline-item"><a class="text-dark text-hover-primary" href="#" data-toggle="modal" data-target="#sidebarRight">
+                <svg class="svg-icon navbar-icon">
+                  <use xlink:href="#menu-hamburger-1"> </use>
+                </svg></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section-->
+    <section class="hero py-6">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <!-- Hero Content-->
+        <div class="hero-content" id="#HowWeWork">
+          <h1 class="mb-5">How We Work</h1>
+          <div><p class="lead text-muted mb-0">partnering... <br> As am hastily invited settled at limited civilly fortune me. Really spring in extent an by. Judge but built party world. Of so am he remember although required. Bachelor unpacked be advanced at. Confined in declared marianne is vicinity. </p></div>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ-->
+    <section class="pb-5" id="What We Do">
+      <div class="container">
+        <div class="py-4" id="Digital">
+          <h2 class="mb-5 text-primary">Bridging The Digital Divide</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Beautiful Design</h5>
+              <p class="text-muted mb-4"><a href="shop.html">shop</a>Collaborative relationship with local area colleges
+
+ Dr. Bernard Luskin, recently retired Chancellor of Ventura Community College District will guide curriculum and California Community College relationships for our team.
+W​e intend to offer dual credit and community based learning college classes to students engaged with our program at each of the participating universities.
+
+
+Uplifting disadvantaged communities
+
+ Creating jobs
+
+Our ecosystem allows for many different possibilities, We will have opportunities for employment building towards to production of​ ​millworks, design, manufacturing & producing wood products, crafting furniture and structures, and laying community raised bed gardens
+
+Job training
+
+In addition to creating jobs, our partnerships with local state and community colleges and youth development centers will provide opportunities for job training and professional mentorship in each of our project areas.
+
+Safe, Mobile, Creative learning Spaces
+
+Our approach turns almost any place into a learning environment. The Smart Kids Initiative employs the community in making it better.We recreate the idea of a community as a village, where every student has a sense of purposeful inclusion in their community. We want to provide learning spaces that provide learners the opportunity to ask meaningful questions, seek and test solutions regarding the vital needs of, community.
+
+Even before COVID-19, low-income urban and rural areas of the US experienced limited access to affordable school programs, consistent internet access, and computer resources. The SMART Kids Initiative is an eco-friendly, cost-effective, workable and scalable solution in a time where mobile learning space is more important than ever. The SMART Kids initiative comprises of a combination of technologies and resources that create small group after school programs, homework help, internships, work experience across a spectrum of ages and skill levels in disadvantaged Fresno neighborhoods first, spreading next to Madera and ​Reedley College, Madera Community College Center, Oakhurst Community College Center, Fresno City College and Clovis Community College. ​San Francisco, then throughout California, and under resourced neighborhoods across the United States.
+
+
+We want to restore the feeling of school as an inspiring, creative environment.​ ​The venue will be vetted by the school, parents and community. We will host learning spaces in creative locations where youth will be inspired to visit and also these can change weekly or even daily since setup and take down efforts are at a minimum​.
+
+We plan to partner with locally owned restaurants as study spaces, many of whom are struggling to stay afloat due to halted or reduced revenue after the onset of COVID-19. We would have small groups of students come in on a scaled schedule, using proper social distancing and hygiene practices. No set-up would be required of the restaurant since each student would bring their technology kit, equipt with their own personal lightweight desk and computer. We would pay the restaurant to supply snacks for the students, thereby ensuring that the business has a consistent customer base, and the students have something to eat.
+
+Characteristics of the learning spaces should directly reflect specific group learning objectives and require further discussion. Each kit works for groups of four to twelve people depending on space, needs and roles. Assigning individual responsibilities on the team provides a wide range of options to tap the unique talents and learning style of each student.
+
+The offering includes teams of small groups numbering four to twelve persons each. Every team is resourced with a complete technology kit, including computer workstations and desks all in their own carrying cases (total weight under 70 lbs.) that set up in minutes and cost between $1,100 – $2,500, pricing subject to volume. This offering provides significant benefit to youth in disadvantaged communities across the area. In providing academic objectives w/ stipend, along with an opportunity to learn skills that lead to more self-reliance, develop self-confidence and steer them away from dangerous influences such as alcohol and drugs.
+
+Mentorship opportunities
+
+Community Partners
+
+We will host and receive referrals for
+
+students from the following community partners
+
+●  Vance Child Care Center
+
+●  Vance Middle School
+
+●  BTW High School
+
+●  McKinley Elementary School
+
+●  LeMoyne Owen College
+
+●  Memphis Hope / Women’s Foundation
+
+●  Memphis House Authority
+
+●  Boys and Girls Club
+
+●  Vance Community Development Corporation
+
+●  Area Child Care Center
+
+●  Foote Homes
+
+●  Local Places of Worship
+
+        Students will have the opportunity to advance their
+leadership potential and become a peer mentor over time. We will also allow admin at our community sites to make referrals for peer mentors who are new to the program. In addition to mentorship roles, we will have opportunities for older students to become instructors for younger students, with high school instructing middle school, college students instructing high school students, and professional volunteers offering instruction periodically.
+
+GreenHouse Gas Sequestration in Mill Work
+
+Mitigating Wildfires, Reducing the Digital Divide- a Win-Win
+
+There are rare times when problems and solutions stare each other in the face. Such is the case here. California mitigation efforts include grant funding to improve forest health along with biomass and urban forestry wood utilization which lift disadvantaged communities in California at the same time. Our goal is high utilization of emergency zone beetle killed pine to create jobs, job training, and provide a variety of highly marketable wood products using urban forestry techniques.We plan to facilitate intergenerational ecological education and collaborative work from professional and senior volunteers, work study students, and youth mentors. This projects directly assists Cal Fire sequestration of carbon effort by removing down trees near roadways in the emergency zone and giving them second lives as high-quality work-desks for students who would not otherwise have a study space at home.We hope to communicate to the interrelatedness of environmental preservation and quality of life.. Project takes direct action to achieve and maintain a net reduction in GHG emissions over a 10 year period based on partner agreements and operations. Project combines the operations of a sawmill providing lumber, CNC fabrication, CLT, LVL, LSL beam manufacturing, along with our teams existing US design patents for furniture and structures into usable products for people of the Stockton (Seaport) community first, then through our various networks to individuals and entities around the world in need of structures and furniture.
+
+Zero Emissions: ​Greenhouse Gas Reduction
+
+​Forest health is important to us! That’s why we don’t just reduce carbon by keeping trees from starting wildfires, we also maximize use of the trees to run a zero-emissions operation.
+
+ As a ​zero emissions operation​ we are partnering with All Power labs, a manufacturer of biomass gasification electricity generation equipment. We transform sawmill waste and residual branches and bush from the pine after production into biomass fuel. Biomass created of material from emergency zones will power our millworks plant.
+VIA trucks will be leased and equipped for field operations which power portable sawmills to emergency zone worksite scheduled
+Trucks provide site power for electric chainsaws, charge batteries for portable electric saws and team requirements.
+Our facility will further our goals of carbon reduction and food justice through our 720 square foot Green wall. The Green Wall will provide clean oxygen indoors with an effect equivalent to 16 fourteen-foot-tall trees.
+
+Our Urban forestry operation will require a F650 min. equipped form factory for clean burning fuel option. This vehicle will operate by liquid natural gas (LNG) or Propane gas. Both are zero emission solutions.
+
+Our team member participants initially will initially sell furniture at reduced cost which covers milling and manufacturing. Log acquisition, millwork, design, manufacturing, tree planting all conducted with teams, each role brings teaching and learning with connected accountability.
+ We will ship completed structures by container or rail car.
+
+Tree- Planting: Creating Ecologically Diverse Green-Space
+
+Outreach and community by-in is vital; therefore; we will be partnering with local television stations to announce tree plantings, community gardening events, and other efforts.
+Every tree we plant will carry RFID chips to document carbon capture, report, monitor data points & track growth Building Community.
+When a seed is planted in it’s biodegradable pot at the company's nursery, it will be accompanied by an RFID tag encoded with a unique ID number linked to the date and information about its mother tree.
+In that way, when the trees are planted, the staff has a record of each sapling's lineage and can thus ensure they do not exclusively plant trees from a single mother tree in one area, which would reduce the forest's diversity and, therefore, the general health of the trees within it.
+The tags, which comply with the EPC Gen 2 standard, are read using a Convergence Systems CS101 handheld interrogator, and the data is then transmitted from the handheld reader to the company's back-end system via a Wi-Fi connection.
+That data is saved on HLH's Web-based database, using software the firm developed itself.
+
+ Ecological education.
+Ecology education is tied into every piece of our programming, however, we also plan to provide Community Based Learning, work-study, and internship opportunities to Reedley College Forestry students to give them practical experience in their field, and build a base of skilled professionals who could potentially help sustain our operations post-graduation.
+Urban forestry is social forestry. Our team views this as an opportunity to demonstrate the mathematics and geometry of doing more with less materials and effort. We are applying the accumulated knowledge of how to build in harmony with nature using its design of natural structure processes as a guide. Ecology education includes planting trees, green walls, and designing and building vegetable gardens to provide fresh food to the community. The core of our project is California Community Colleges which serve Fresno, Madera, and San Francisco. Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              <h5>Designed for transportation</h5>
+              <p class="text-muted mb-4"> flat back- produce carrying cases- His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.</p>
+            </div>
+            <div class="col-md-6">
+              <h5>Easy to assemble and disessemble</h5>
+              <p class="text-muted mb-4">multiple locations- useful for college students, dont have space to keep it always, be used to implement <a href="#SmartKid">SMART KID Iniative</a>. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What's happened to me?&quot; he thought. It wasn't a dream.</p>
+              <h5>Eco Friendly Design</h5>
+              <p class="text-muted mb-4">mention biomimicry and purely wood. sinole supply chain/ assembly</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="py-4" id="Wildfires">
+          <h2 class="mb-5 text-primary">Mitigating Wildfires</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Can I pay COD - cash on delivery?</h5>
+              <p class="text-muted mb-4">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections</p>
+              <h5>Payment methods accepted</h5>
+              <p class="text-muted mb-4">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections</p>
+            </div>
+            <div class="col-md-6">
+              <h5>What is Paypal?</h5>
+              <p class="text-muted mb-4">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. &quot;What's happened to me?&quot; he thought. It wasn't a dream.</p>
+              <h5>How do the conversion rates work</h5>
+              <p class="text-muted mb-4">His room, a proper human room although a little too small, lay peacefully between its four familiar walls. A collection of textile samples lay spread out on the table.</p>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="py-4" id="Reducing">
+          <h2 class="mb-5 text-primary">Work-Study Fellowships for Formerly Incarcerated Californians</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>My product has a problem what should I do?</h5>
+              <p class="text-muted mb-4">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              <h5>What if the product is broken?</h5>
+              <p class="text-muted mb-4">He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never felt before.</p>
+            </div>
+            <div class="col-md-6">
+              <h5>Why should I buy insurance at the checkout?</h5>
+              <p class="text-muted mb-4">One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections</p>
+            </div>
+          </div>
+        </div>
+        <div class="py-4" id="sawmill">
+          <h2 class="mb-5 text-primary">Zero-Emissions Sawmill</h2>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Mention just wood? My product has a problem what should I do?</h5>
+              <p class="text-muted mb-4">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+              <h5>What if the product is broken?</h5>
+              <p class="text-muted mb-4">He must have tried it a hundred times, shut his eyes so that he wouldn't have to look at the floundering legs, and only stopped when he began to feel a mild, dull pain there that he had never felt before.</p>
+            </div>
+            <div class="col-md-6">
+              <h5>Future Projects?</h5>
+              <p class="text-muted mb-4">Developing ​intergenerational relationships to grow understanding of eco issues and mento​r work teams provide operational personnel. ​Senior volunteer corps can exist the area possessing a wide spectrum of skills. This solution would provide these volunteers with an environment and tools to make their efforts more productive and meaningful. The computing environment described above enables learning for the youth, fosters small group collaboration through project work, and leads to more progress in moving disadvantaged communities forward. Both individual and group volunteer efforts could take advantage of the environment created by this solution. This complete offering engages the entire community to participate at the level they can. These resources form the tools to enable and empower these youth through experiences and training. The deployment mechanism for these learning resources is a tree mortality area specific AI portal powered by IBM Watson that focuses efforts on greenhouse gas reductions in every activity.
+                       Web services resources and the​ plethora of stipend, paid and volunteers ​that serve as instructors, tutors and mentors. Also, provides a compelling case to deliver useful products and community assets and educational resources to across communities targeted to their needs as projects are generated by them. Teams of small groups run all operations delivering on tasks assigned. Computer desks, chairs made of redeemed trees will be made available to participants.</p>
+              <br>
+              ont pit pythagoras bukding work up front- saw mill zero carbon prodice rhjngs long term. memtion done with saw mill which will produce green justice projectsfuture ecosteym- saw produce.. and senior corps- mention SMART KID INITIATIVE,
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sidebar Cart Modal-->
+    <div class="modal fade modal-right" id="sidebarCart" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content sidebar-cart-content">
+          <div class="modal-header border-0">
+            <button class="close modal-close close-rotate" type="button" data-dismiss="modal" aria-label="Close">
+              <svg class="svg-icon w-3rem h-3rem svg-icon-light align-middle">
+                <use xlink:href="#close-1"> </use>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body px-5 sidebar-cart-body">
+            <!-- Empty cart snippet-->
+            <!-- In case of empty cart - display this snippet + remove .d-none-->
+            <div class="d-none text-center mb-5">
+              <svg class="svg-icon w-3rem h-3rem svg-icon-light mb-4 text-muted">
+                <use xlink:href="#retail-bag-1"> </use>
+              </svg>
+              <p>Your cart is empty </p>
+            </div>
+            <!-- Empty cart snippet end-->
+            <div class="sidebar-cart-product-wrapper custom-scrollbar">
+              <!-- cart item-->
+              <div class="navbar-cart-product">
+                <div class="d-flex align-items-center"><a href="detail-1.html"><img class="img-fluid navbar-cart-product-image" src="img/product/product-square-ian-dooley-347968-unsplash.jpg" alt="..."/></a>
+                  <div class="w-100"><a class="close" href="#">
+                      <svg class="svg-icon sidebar-cart-icon">
+                        <use xlink:href="#close-1"> </use>
+                      </svg></a>
+                    <div class="pl-3"> <a class="navbar-cart-product-link text-dark link-animated" href="detail-1.html">Skull Tee</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00     </strong></div>
+                  </div>
+                </div>
+              </div>
+              <!-- cart item-->
+              <div class="navbar-cart-product">
+                <div class="d-flex align-items-center"><a href="detail-1.html"><img class="img-fluid navbar-cart-product-image" src="img/product/product-square-kyle-loftus-596319-unsplash.jpg" alt="..."/></a>
+                  <div class="w-100"><a class="close" href="#">
+                      <svg class="svg-icon sidebar-cart-icon">
+                        <use xlink:href="#close-1"> </use>
+                      </svg></a>
+                    <div class="pl-3"> <a class="navbar-cart-product-link text-dark link-animated" href="detail-1.html">Transparent Blouse</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00     </strong></div>
+                  </div>
+                </div>
+              </div>
+              <!-- cart item-->
+              <div class="navbar-cart-product">
+                <div class="d-flex align-items-center"><a href="detail-1.html"><img class="img-fluid navbar-cart-product-image" src="img/product/product-square-serrah-galos-494312-unsplash.jpg" alt="..."/></a>
+                  <div class="w-100"><a class="close" href="#">
+                      <svg class="svg-icon sidebar-cart-icon">
+                        <use xlink:href="#close-1"> </use>
+                      </svg></a>
+                    <div class="pl-3"> <a class="navbar-cart-product-link text-dark link-animated" href="detail-1.html">White Tee</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00     </strong></div>
+                  </div>
+                </div>
+              </div>
+              <!-- cart item-->
+              <div class="navbar-cart-product">
+                <div class="d-flex align-items-center"><a href="detail-1.html"><img class="img-fluid navbar-cart-product-image" src="img/product/product-square-ian-dooley-347968-unsplash.jpg" alt="..."/></a>
+                  <div class="w-100"><a class="close" href="#">
+                      <svg class="svg-icon sidebar-cart-icon">
+                        <use xlink:href="#close-1"> </use>
+                      </svg></a>
+                    <div class="pl-3"> <a class="navbar-cart-product-link text-dark link-animated" href="detail-1.html">Skull Tee</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00     </strong></div>
+                  </div>
+                </div>
+              </div>
+              <!-- cart item-->
+              <div class="navbar-cart-product">
+                <div class="d-flex align-items-center"><a href="detail-1.html"><img class="img-fluid navbar-cart-product-image" src="img/product/product-square-kyle-loftus-596319-unsplash.jpg" alt="..."/></a>
+                  <div class="w-100"><a class="close" href="#">
+                      <svg class="svg-icon sidebar-cart-icon">
+                        <use xlink:href="#close-1"> </use>
+                      </svg></a>
+                    <div class="pl-3"> <a class="navbar-cart-product-link text-dark link-animated" href="detail-1.html">Transparent Blouse</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00     </strong></div>
+                  </div>
+                </div>
+              </div>
+              <!-- cart item-->
+              <div class="navbar-cart-product">
+                <div class="d-flex align-items-center"><a href="detail-1.html"><img class="img-fluid navbar-cart-product-image" src="img/product/product-square-serrah-galos-494312-unsplash.jpg" alt="..."/></a>
+                  <div class="w-100"><a class="close" href="#">
+                      <svg class="svg-icon sidebar-cart-icon">
+                        <use xlink:href="#close-1"> </use>
+                      </svg></a>
+                    <div class="pl-3"> <a class="navbar-cart-product-link text-dark link-animated" href="detail-1.html">White Tee</a><small class="d-block text-muted">Quantity: 1 </small><strong class="d-block text-sm">$75.00     </strong></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer sidebar-cart-footer shadow">
+            <div class="w-100">
+              <h5 class="mb-4">Subtotal: <span class="float-right">$465.32</span></h5><a class="btn btn-outline-dark btn-block mb-3" href="cart.html">View cart</a><a class="btn btn-dark btn-block" href="checkout.html">Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar Modal Right-->
+    <div class="modal fade modal-right" id="sidebarRight" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button class="close close-rotate" type="button" data-dismiss="modal" aria-label="Close">
+              <svg class="svg-icon w-3rem h-3rem svg-icon-light align-middle">
+                <use xlink:href="#close-1"> </use>
+              </svg>
+            </button>
+          </div>
+          <div class="modal-body px-5 pb-5">
+            <div>
+              <h5 class="mb-5" data-aos="zoom-in" data-aos-delay="50">Varkala</h5>
+              <ul class="nav flex-column mb-5">
+                <li class="nav-item active"><a class="nav-link pl-0" href="#">Home </a></li>
+                <li class="nav-item"><a class="nav-link pl-0" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link pl-0 disabled" href="#">Disabled</a></li>
+                <li class="nav-item dropdown"><a class="nav-link pl-0 dropdown-toggle" id="navbarDropdownMenuLink" href="#" data-target="#sidebarSubmenu" data-toggle="collapse" aria-haspopup="true" aria-expanded="false">Dropdown link</a>
+                  <div class="collapse" id="sidebarSubmenu">
+                    <ul class="nav flex-column ml-3">
+                      <li class="nav-item"><a class="nav-link pl-0" href="#">Action</a></li>
+                      <li class="nav-item"><a class="nav-link pl-0" href="#">Another action</a></li>
+                      <li class="nav-item"><a class="nav-link pl-0" href="#">Something else here                </a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <ul class="list-inline mb-4">
+                <li class="list-inline-item mr-2"><i class="fab fa-facebook-f"> </i></li>
+                <li class="list-inline-item mr-2"><i class="fab fa-twitter"> </i></li>
+                <li class="list-inline-item mr-2">
+                  <svg class="svg-icon mr-2">
+                    <use xlink:href="#calls-1"> </use>
+                  </svg>020-800-456-747
+                </li>
+              </ul>
+              <p class="text-sm text-muted mb-0">Samsa was a travelling salesman - and above it there hung a picture that he had recently cut out of an illustrated magazine and housed in a nice, gilded frame.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Login Modal    -->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <button class="close close-absolute" type="button" data-dismiss="modal" aria-label="Close">
+            <svg class="svg-icon w-3rem h-3rem svg-icon-light align-middle">
+              <use xlink:href="#close-1"> </use>
+            </svg>
+          </button>
+          <div class="modal-body p-5">
+            <ul class="nav list-inline" role="tablist">
+              <li class="list-inline-item"><a class="nav-link nav-link-lg active" data-toggle="tab" href="#loginModalTabLogin" role="tab" id="loginModalLinkLogin" aria-controls="loginModalTabLogin" aria-selected="true">Login</a></li>
+              <li class="list-inline-item"><a class="nav-link nav-link-lg" data-toggle="tab" href="#loginModalTabRegister" role="tab" id="loginModalLinkRegister" aria-controls="loginModalTabRegister" aria-selected="false">Register</a></li>
+            </ul>
+            <hr class="mb-3">
+            <div class="tab-content">
+              <div class="tab-pane active fade show px-3" id="loginModalTabLogin" role="tabpanel" aria-labelledby="loginModalLinkLogin">
+                <form action="customer-orders.html" method="get">
+                  <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" id="email" type="text">
+                  </div>
+                  <div class="form-group">
+                    <div class="row">
+                      <div class="col">
+                        <label class="form-label" for="loginPassword"> Password</label>
+                      </div>
+                      <div class="col-auto"><a class="form-text small" href="#">Forgot password?</a></div>
+                    </div>
+                    <input class="form-control" name="loginPassword" id="loginPassword" placeholder="Password" type="password" required data-msg="Please enter your password">
+                  </div>
+                  <div class="form-group">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="loginRemember" type="checkbox">
+                      <label class="custom-control-label text-muted" for="loginRemember"> <span class="text-sm">Remember me for 30 days</span></label>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-block btn-outline-dark" type="submit"><i class="fa fa-sign-in-alt mr-2"></i> Log in</button>
+                  </div>
+                </form>
+                <hr class="my-3 hr-text letter-spacing-2" data-content="OR">
+                <div class="text-center">
+                  <button class="btn btn btn-outline-primary letter-spacing-0" data-toggle="tooltip" title="Connect with Facebook"><i class="fa-fw fa-facebook-f fab"></i><span class="sr-only">Connect with Facebook</span></button>
+                  <button class="btn btn btn-outline-muted letter-spacing-0" data-toggle="tooltip" title="Connect with Google"><i class="fa-fw fa-google fab"></i><span class="sr-only">Connect with Google</span></button>
+                </div>
+              </div>
+              <div class="tab-pane fade px-3" id="loginModalTabRegister" role="tabpanel" aria-labelledby="loginModalLinkRegister">
+                <p class="text-muted text-sm">The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pit.                                            </p>
+                <form action="customer-orders.html" method="get">
+                  <div class="form-group">
+                    <label class="form-label" for="registerName">Name</label>
+                    <input class="form-control" id="registerName" type="text">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="registerEmail">Email</label>
+                    <input class="form-control" id="registerEmail" type="text">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label" for="registerPassword">Password</label>
+                    <input class="form-control" id="registerPassword" type="password">
+                  </div>
+                  <div class="form-group text-center">
+                    <button class="btn btn-block btn-outline-dark" type="submit"><i class="far fa-user mr-2"></i>Register                       </button>
+                  </div>
+                </form>
+                <hr class="my-3 hr-text letter-spacing-2" data-content="OR CONNECT WITH">
+                <div class="text-center">
+                  <button class="btn btn btn-outline-primary letter-spacing-0" data-toggle="tooltip" title="Connect with Facebook"><i class="fa-fw fa-facebook-f fab"></i><span class="sr-only">Connect with Facebook</span></button>
+                  <button class="btn btn btn-outline-muted letter-spacing-0" data-toggle="tooltip" title="Connect with Google"><i class="fa-fw fa-google fab"></i><span class="sr-only">Connect with Google                                      </span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer-->
+    <footer>
+      <!-- Services block-->
+      <div class="py-5 py-lg-6 bg-gray-100">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-sm-6 py-4 service-column">
+              <svg class="svg-icon service-icon">
+                <use xlink:href="#delivery-time-1"> </use>
+              </svg>
+              <div class="service-text">
+                <h6 class="text-sm mb-1">Free shipping &amp; return</h6>
+                <p class="text-muted font-weight-light text-sm mb-0">Free Shipping over $300</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 py-4 service-column">
+              <svg class="svg-icon service-icon">
+                <use xlink:href="#money-1"> </use>
+              </svg>
+              <div class="service-text">
+                <h6 class="text-sm mb-1">Money back guarantee</h6>
+                <p class="text-muted font-weight-light text-sm mb-0">30 Days Money Back Guarantee</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 py-4 service-column">
+              <svg class="svg-icon service-icon">
+                <use xlink:href="#special-price-1"> </use>
+              </svg>
+              <div class="service-text">
+                <h6 class="text-sm mb-1">Best prices</h6>
+                <p class="text-muted font-weight-light text-sm mb-0">Always the best prices</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 py-4 service-column">
+              <svg class="svg-icon service-icon">
+                <use xlink:href="#customer-support-1"> </use>
+              </svg>
+              <div class="service-text">
+                <h6 class="text-sm mb-1">020-800-456-747</h6>
+                <p class="text-muted font-weight-light text-sm mb-0">24/7 Available Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Main block - menus, subscribe form-->
+      <div class="py-6 text-muted">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 pr-lg-5 pr-xl-6 mb-5 mb-lg-0">
+              <h6 class="text-dark letter-spacing-1 mb-4">Be in touch</h6>
+              <p class="text-sm mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+              <form action="#" id="newsletter-form">
+                <div class="input-group input-group-underlined mb-3">
+                  <input class="form-control form-control-underlined" type="email" placeholder="Your Email Address" aria-label="Your Email Address">
+                  <div class="input-group-append ml-0">
+                    <button class="btn btn-underlined text-gray-700 py-0" type="button">
+                      <svg class="svg-icon w-2rem h-2rem">
+                        <use xlink:href="#envelope-1"> </use>
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-7">
+              <div class="row">
+                <div class="col-lg-4"><a class="d-lg-none block-toggler my-3" data-toggle="collapse" href="#footerMenu0" aria-expanded="false" aria-controls="footerMenu0">Shop<span class="block-toggler-icon"></span></a>
+                  <!-- Footer collapsible menu-->
+                  <div class="expand-lg collapse" id="footerMenu0">
+                    <h6 class="text-dark letter-spacing-1 mb-4 d-none d-lg-block">Shop</h6>
+                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">For Women</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">For Men</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Stores</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Our Blog</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Shop</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4"><a class="d-lg-none block-toggler my-3" data-toggle="collapse" href="#footerMenu1" aria-expanded="false" aria-controls="footerMenu1">Company<span class="block-toggler-icon"></span></a>
+                  <!-- Footer collapsible menu-->
+                  <div class="expand-lg collapse" id="footerMenu1">
+                    <h6 class="text-dark letter-spacing-1 mb-4 d-none d-lg-block">Company</h6>
+                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Login</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Register</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Wishlist</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Our Products</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Checkouts</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-4"><a class="d-lg-none block-toggler my-3" data-toggle="collapse" href="#footerMenu2" aria-expanded="false" aria-controls="footerMenu2">Your account<span class="block-toggler-icon"></span></a>
+                  <!-- Footer collapsible menu-->
+                  <div class="expand-lg collapse" id="footerMenu2">
+                    <h6 class="text-dark letter-spacing-1 mb-4 d-none d-lg-block">Your account</h6>
+                    <ul class="list-unstyled text-sm pt-2 pt-lg-0">
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Login</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Register</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Wishlist</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Our Products</a></li>
+                      <li class="mb-2"> <a class="text-muted text-hover-dark link-animated" href="#">Checkouts</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright section of the footer-->
+      <div class="py-4 font-weight-light text-muted">
+        <div class="container">
+          <div class="row align-items-center text-sm text-gray-500">
+            <div class="col-lg-4 text-center text-lg-left">
+              <p class="mb-lg-0">&copy; 2020 Your company.  All rights reserved.</p>
+            </div>
+            <div class="col-lg-8">
+              <ul class="list-inline mb-0 mt-2 mt-md-0 text-center text-lg-right">
+                <li class="list-inline-item"> <a class="text-reset" href="#">Terms &amp; Conditions </a></li>
+                <li class="list-inline-item"> <a class="text-reset" href="#">Privacy &amp; cookies </a></li>
+                <li class="list-inline-item"> <a class="text-reset" href="#">Accessibility </a></li>
+                <li class="list-inline-item"> <a class="text-reset" href="#">Customer Data Promise </a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer end-->
+    <!-- JavaScript files-->
+    <script>
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite -
+      //   see more here
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to Bootstrapious website as you cannot
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('https://demo.bootstrapious.com/varkala/1-1/icons/orion-svg-sprite.svg');
+      injectSvgSprite('https://demo.bootstrapious.com/varkala/1-1/icons/varkala-clothes.svg');
+      injectSvgSprite('https://demo.bootstrapious.com/varkala/1-1/img/shape/blob-sprite.svg');
+
+    </script>
+    <!-- jQuery-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Bundle -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Swiper Carousel                       -->
+    <script src="vendor/swiper/js/swiper.min.js"></script>
+    <!-- Bootstrap Select-->
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <!-- AOS - AnimationOnScroll-->
+    <script src="vendor/aos/aos.js"></script>
+    <!-- Custom Scrollbar-->
+    <script src="vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom-scrollbar-init.js"></script>
+    <!-- Smooth scroll-->
+    <script src="vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+    <!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
+    <script src="vendor/object-fit-images/ofi.min.js"></script>
+    <!-- Some theme config-->
+    <script>
+      var options = {
+          navbarExpandPx: 992
+      }
+
+    </script>
+    <!-- Main Theme files-->
+    <script src="js/sliders-init.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
