@@ -1,3 +1,7 @@
+Website developed for the Enerchi Initiative from the boostrap theme Varkala
+
+
+
 /**
  * Varkala - Bootstrap 4 E-commerce Theme v. 1.2.0
  * Homepage: https://themes.getbootstrap.com/product/varkala-e-commerce-theme/
