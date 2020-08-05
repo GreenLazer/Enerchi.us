@@ -1,0 +1,40 @@
+// this is the place for your components / CSS
+
+.service-icon{
+  font-size: 80px;
+  padding-right: 100px;
+  color: #65aa4e;
+}
+
+.service-icon:hover{
+  color: #bcac76;
+}
+
+#iconsection a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#iconsection a:hover{
+  color: #bcac76;
+}
+
+.swiper-nav .swiper-button-prev, .swiper-nav .swiper-button-next{
+  color: white;
+}
+
+.swiper-slide h2{
+  text-shadow: 3px 3px #65aa4e;
+}
+
+.swiper-slide p{
+  text-shadow: 1px 1px black;
+}
+
+.Footer{
+  background-color: gray;
+}
+// #iconsection i{
+//   font-size: 50px;
+//   // padding-right: 70px;
+// }
